@@ -1,25 +1,53 @@
-DIV {
-	border: 1px solid #000000;
+iv {
+  border: 1px solid #242933;
+}
+
+body {
+  background-color: #242933;
+  opacity: 1;
 }
 
 #Header {
-	height: 100px;
-	width: 800px;
-	margin-right: auto;
-	margin-left: auto;
-	background: url(images/banner.png) no-repeat;
-	color:red;
+  height: 100px;
+  width: 800px;
+  margin-right: auto;
+  margin-left: auto;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-family: "Cascadia Code";
+  color: #e5e9f0;
 }
 
 #MainContent {
-	width: 800px;
-	margin-right: auto;
-	margin-left: auto;
+  width: 800px;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: "Cascadia Code";
+  text-align: center;
+  color: #e5e9f0;
 }
 
 #Footer {
-	width: 802px;
-	margin-right: auto;
-	margin-left: auto;
-	height: 50px;
+  width: 802px;
+  margin-right: auto;
+  margin-left: auto;
+  height: 50px;
+}
+
+#FooterLeft {
+  float: left;
+  width: 399px;
+  height: 50px;
+  border: 1px solid #4c566a;
+}
+
+#FooterRight {
+  float: right;
+  width: 399px;
+  height: 50px;
+  border: 1px solid #4c566a;
+}
+
+#faq {
+  font-size: 20;
 }
